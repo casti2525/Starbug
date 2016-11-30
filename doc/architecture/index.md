@@ -21,7 +21,7 @@ The namespaces which are lower down the list have the ability to override and ex
 
 ## Classes
 
-When classes such as models, controllers, and displays are retrieved from their respective factories, we look through each namespace starting from Starbug\App and finishing with Starbug\Core. We use the first one that we find and leave it up the loaded class to extend or replace any implementations that may exist in other namespaces.
+When classes such as models, controllers, and displays are retrieved from their respective factories, we look through each namespace starting from Starbug\App and finishing with Starbug\Core. We use the first one that we find and leave it up to the loaded class to extend or replace any implementations that may exist in other namespaces.
 
 We have the class `Starbug\Core\UsersForm` at `core/app/displays/UsersForm.php`. This will be loaded when we request a display named `UsersForm`.
 
